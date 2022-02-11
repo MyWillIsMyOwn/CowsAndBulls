@@ -15,7 +15,7 @@ def compare (user_number,generated_number):
     return cow, bull
 
 def playagain():
-    answer = input("Wanna play again? y/n")
+    answer = input("Do you want to play again? y/n")
     if(answer=="y"):
         game()
     else:
